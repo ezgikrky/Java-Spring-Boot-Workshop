@@ -1,4 +1,5 @@
 package com.example.JavaSpringBootWorkshop.service;
 
-public class WelcomeService {
+public interface WelcomeService {
+    String sayHi(String name);
 }
